@@ -30,7 +30,7 @@ android {
         minSdkVersion 23
         targetSdkVersion 33
         versionCode(getTimeStamp.call() as int)
-        versionName "1.2" + (getGitHeadRefsSuffix.call() as String)
+        versionName "1.3" + (getGitHeadRefsSuffix.call() as String)
     }
 
     buildTypes {
