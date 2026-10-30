@@ -1,4 +1,4 @@
-package ltd.nextalone.pkginstallerplus.hook
+package io.github.rushiranpise.installernext.hook
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -15,9 +15,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 
 import de.robv.android.xposed.XposedHelpers.getObjectField
-import ltd.nextalone.pkginstallerplus.HookEntry
-import ltd.nextalone.pkginstallerplus.R
-import ltd.nextalone.pkginstallerplus.utils.*
+import io.github.rushiranpise.installernext.HookEntry
+import io.github.rushiranpise.installernext.R
+import io.github.rushiranpise.installernext.utils.*
 
 @SuppressLint("PrivateApi")
 object InstallerHookN {

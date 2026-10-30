@@ -1,4 +1,4 @@
-package ltd.nextalone.pkginstallerplus.utils
+package io.github.rushiranpise.installernext.utils
 
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
@@ -6,7 +6,7 @@ import android.util.Log
 import de.robv.android.xposed.XC_MethodHook
 import de.robv.android.xposed.XC_MethodReplacement
 import de.robv.android.xposed.XposedBridge
-import ltd.nextalone.pkginstallerplus.HookEntry
+import io.github.rushiranpise.installernext.HookEntry
 import java.lang.reflect.Member
 import java.lang.reflect.Method
 

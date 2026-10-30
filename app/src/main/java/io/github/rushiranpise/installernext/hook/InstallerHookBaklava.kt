@@ -1,4 +1,4 @@
-package ltd.nextalone.pkginstallerplus.hook
+package io.github.rushiranpise.installernext.hook
 
 import android.app.Activity
 import android.app.Dialog
@@ -12,9 +12,9 @@ import android.text.style.ForegroundColorSpan
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import ltd.nextalone.pkginstallerplus.HookEntry.injectModuleResources
-import ltd.nextalone.pkginstallerplus.R
-import ltd.nextalone.pkginstallerplus.utils.*
+import io.github.rushiranpise.installernext.HookEntry.injectModuleResources
+import io.github.rushiranpise.installernext.R
+import io.github.rushiranpise.installernext.utils.*
 
 private const val TAG_INSTALL_DETAILS = "IPP_install_details"
 private const val TAG_UNINSTALL_DETAILS = "IPP_uninstall_details"

@@ -1,4 +1,4 @@
-package ltd.nextalone.pkginstallerplus;
+package io.github.rushiranpise.installernext;
 
 import android.annotation.SuppressLint;
 import android.content.res.AssetManager;
@@ -13,15 +13,15 @@ import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
-import ltd.nextalone.pkginstallerplus.hook.InstallerHookBaklava;
-import ltd.nextalone.pkginstallerplus.hook.InstallerHookN;
-import ltd.nextalone.pkginstallerplus.hook.InstallerHookQ;
+import io.github.rushiranpise.installernext.hook.InstallerHookBaklava;
+import io.github.rushiranpise.installernext.hook.InstallerHookN;
+import io.github.rushiranpise.installernext.hook.InstallerHookQ;
 
-import static ltd.nextalone.pkginstallerplus.utils.HookUtilsKt.isV2InstallerAvailable;
-import static ltd.nextalone.pkginstallerplus.utils.LogUtilsKt.logDebug;
-import static ltd.nextalone.pkginstallerplus.utils.LogUtilsKt.logDetail;
-import static ltd.nextalone.pkginstallerplus.utils.LogUtilsKt.logError;
-import static ltd.nextalone.pkginstallerplus.utils.LogUtilsKt.logThrowable;
+import static io.github.rushiranpise.installernext.utils.HookUtilsKt.isV2InstallerAvailable;
+import static io.github.rushiranpise.installernext.utils.LogUtilsKt.logDebug;
+import static io.github.rushiranpise.installernext.utils.LogUtilsKt.logDetail;
+import static io.github.rushiranpise.installernext.utils.LogUtilsKt.logError;
+import static io.github.rushiranpise.installernext.utils.LogUtilsKt.logThrowable;
 
 public class HookEntry implements IXposedHookLoadPackage, IXposedHookZygoteInit {
 

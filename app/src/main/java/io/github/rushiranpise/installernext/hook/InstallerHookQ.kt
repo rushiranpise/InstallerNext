@@ -1,4 +1,4 @@
-package ltd.nextalone.pkginstallerplus.hook
+package io.github.rushiranpise.installernext.hook
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -15,9 +15,9 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 
-import ltd.nextalone.pkginstallerplus.HookEntry.injectModuleResources
-import ltd.nextalone.pkginstallerplus.R
-import ltd.nextalone.pkginstallerplus.utils.*
+import io.github.rushiranpise.installernext.HookEntry.injectModuleResources
+import io.github.rushiranpise.installernext.R
+import io.github.rushiranpise.installernext.utils.*
 
 @RequiresApi(29)
 object InstallerHookQ {

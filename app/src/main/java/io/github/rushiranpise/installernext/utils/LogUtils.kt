@@ -1,4 +1,4 @@
-package ltd.nextalone.pkginstallerplus.utils
+package io.github.rushiranpise.installernext.utils
 
 import android.util.Log
 

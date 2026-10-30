@@ -50,5 +50,5 @@ jobs:
         uses: actions/upload-artifact@v4
         if: success()
         with:
-          name: InstallerPlus-debug-${{ env.SHA7 }}
+          name: InstallerNext-debug-${{ env.SHA7 }}
           path: ${{ github.workspace }}/app/build/outputs/apk/debug
