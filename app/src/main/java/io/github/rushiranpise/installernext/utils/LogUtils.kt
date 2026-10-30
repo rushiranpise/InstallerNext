@@ -2,7 +2,7 @@ package io.github.rushiranpise.installernext.utils
 
 import android.util.Log
 
-internal const val TAG = "NextAlone"
+internal const val TAG = "InstallerNext"
 internal fun logDebug(msg: String) {
     Log.d(TAG, msg)
 }
