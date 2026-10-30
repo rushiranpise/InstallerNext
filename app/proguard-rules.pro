@@ -20,4 +20,8 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class ltd.nextalone.**
+# The framework loads HookEntry by name from assets/xposed_init, and the hooks are reached
+# reflectively, so nothing in this module may be renamed or stripped.
+-keep class io.github.rushiranpise.installernext.** { *; }
+-keepclassmembers class io.github.rushiranpise.installernext.** { *; }
+-keepattributes *Annotation*
